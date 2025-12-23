@@ -1,9 +1,14 @@
-// Select elements
-const button = document.getElementById("eventBtn");
-const message = document.getElementById("message");
+function login() {
+    document.getElementById("msg").textContent =
+        "Login successful (demo only)";
+}
 
-// Button click event
-button.addEventListener("click", () => {
-    message.textContent = "🎉 Event listings will be available soon. Stay tuned!";
-    message.classList.remove("hidden");
-});
+function register() {
+    document.getElementById("msg").textContent =
+        "Registration successful (demo only)";
+}
+
+function pay() {
+    document.getElementById("msg").textContent =
+        "Payment completed successfully!";
+}
